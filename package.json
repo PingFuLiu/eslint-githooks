@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src",
+    "lint": "lint-staged",
     "lint:create": "eslint --init",
     "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.15.2",
-    "husky": "^7.0.1"
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2"
   }
 }
