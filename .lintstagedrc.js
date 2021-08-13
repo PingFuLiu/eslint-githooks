@@ -1,6 +1,6 @@
 module.exports = {
   "src/**/*.{js,vue}": [
-    "eslint --cache --fix",
+    "eslint",
     "git add"
   ]
 }
